@@ -78,6 +78,53 @@ header .menu{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+.cadastrar-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-pitch.jpg');
+
+    height: 600px;
+    background-size: cover;
+}
+.titulo-cadastrar{
+    text-align: center;
+    padding: 20px;
+    
+}
+.titulo-cadastrar h1{
+    font-size: 50px;
+}
+.container-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 15px;
+    min-width: 300px;
+}
+form input{
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+  
+}
+form button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, .50);
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+form button:hover{
+    color: var(--preta);
+    background: white;
+}
+
 .botao {
     background-color: rgba(0, 0, 0, .50);
     border: none;
